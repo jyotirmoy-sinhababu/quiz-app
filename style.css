@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: bisque;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.quiz {
+  font-size: 2.4em;
+}
+.keeper,
+.scoreboard {
+  font-size: 1.2em;
+}
+.container {
+  padding: 50px;
+  margin: 50px;
+}
+.nxt-btn {
+  margin: 20px;
+  padding: 10px;
+  height: 100px;
+  width: 160px;
+  background-color: rgb(174, 239, 105);
+  font-size: 2.5em;
+  border-radius: 20px;
+}
+.optBtn {
+  display: flex;
+  border-radius: 10px;
+  font-size: 1em;
+  grid-gap: 20px;
+  grid-template-columns: 80px 100px 100px 100px;
+  margin: 20px;
+  padding: 10px;
+  height: 40px;
+  width: 260px;
+  background-color: rgb(235, 188, 131);
+}
